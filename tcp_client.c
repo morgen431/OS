@@ -78,6 +78,7 @@ int main(int argc, char *argv[])
     printf("Client got total printable %s \n", recv_buff);
 	//puts( recv_buff );
   }
+  //
 
   close(sockfd); // is socket really done here?
   //printf("Write after close returns %d\n", write(sockfd, recvBuff, 1));
